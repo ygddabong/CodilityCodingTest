@@ -7,12 +7,12 @@ import java.util.*;
 //System.out.println("this is a debug message");
 
 class Solution {
- public int solution(int X, int Y, int D) {
-     // write your code in Java SE 8
- 	
- 	int XX = Y-X;
- 	Double XXX = XX / (double) D;
- 	int XXXX = (int)Math.ceil(XXX);
+	public int solution(int X, int Y, int D) {
+		// write your code in Java SE 8
+
+		int XX = Y - X;
+		Double XXX = XX / (double) D;
+		int XXXX = (int) Math.ceil(XXX);
 		return XXXX;
 	}
 }
