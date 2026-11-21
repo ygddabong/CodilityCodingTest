@@ -1,6 +1,6 @@
 package PassingCars;
 
-class Solution {
+public class Solution {
 	public int solution(int[] A) {
 		int result = 0;
 		int sum = 0;

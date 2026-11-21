@@ -1,6 +1,6 @@
 package TapeEquilibrium;
 
-class Solution {
+public class Solution {
 	public int solution(int[] A) {
 		int sum_top = 0;
 		int sum_bottom = 0;

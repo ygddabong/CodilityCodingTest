@@ -1,6 +1,6 @@
 package MaxCounters;
 
-class Solution {
+public class Solution {
 	public int[] solution(int N, int[] A) {
 		int[] result = new int[N];
 		int tempNum = 0;

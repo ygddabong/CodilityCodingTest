@@ -1,8 +1,7 @@
 package BinaryGap;
 
-class Solution {
+public class Solution {
 	public int solution(int N) {
-		// write your code in Java SE 8
 		String binaryString = Integer.toBinaryString(N);
 		char[] binaryChar = binaryString.toCharArray();
 		int totalGapLength = 0;
