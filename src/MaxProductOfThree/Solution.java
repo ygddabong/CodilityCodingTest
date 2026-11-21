@@ -2,7 +2,7 @@ package MaxProductOfThree;
 
 import java.util.*;
 
-class Solution {
+public class Solution {
 	public int solution(int[] A) {
 		Arrays.sort(A);
 		int x = A.length;

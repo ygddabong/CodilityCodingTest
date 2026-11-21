@@ -2,7 +2,7 @@ package Triangle;
 
 import java.util.*;
 
-class Solution {
+public class Solution {
 	public int solution(int[] A) {
 		Arrays.sort(A);
 		for (int i = 2; i < A.length; i++) {
